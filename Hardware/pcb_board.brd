@@ -1064,7 +1064,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <class number="1" name="power" width="0" drill="0">
 </class>
 </classes>
-<designrules name="jlcpcb-2layers.dru">
+<designrules name="jlcpcb-2layers.dru *">
 <param name="mdWireWire" value="5mil"/>
 <param name="mdWirePad" value="5mil"/>
 <param name="mdWireVia" value="5mil"/>
@@ -2839,9 +2839,8 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <wire x1="60.594" y1="59.07" x2="59.055" y2="59.07" width="0.15" layer="1"/>
 <wire x1="40.767" y1="46.355" x2="26.08114375" y2="46.355" width="0.15" layer="1"/>
 <wire x1="26.08114375" y1="46.355" x2="22.99914375" y2="43.273" width="0.15" layer="1"/>
-<wire x1="22.99914375" y1="43.273" x2="20.0663875" y2="43.273" width="0.15" layer="1"/>
-<wire x1="20.0663875" y1="43.273" x2="20.0323875" y2="43.307" width="0.15" layer="1"/>
-<wire x1="20.0323875" y1="43.307" x2="18.5797625" y2="43.307" width="0.15" layer="1"/>
+<wire x1="22.99914375" y1="43.273" x2="18.6137625" y2="43.273" width="0.15" layer="1"/>
+<wire x1="18.6137625" y1="43.273" x2="18.5797625" y2="43.307" width="0.15" layer="1"/>
 <wire x1="14.05129375" y1="45.085" x2="15.748" y2="45.085" width="0.15" layer="16"/>
 <wire x1="64.3437" y1="59.563" x2="71.2034" y2="52.7033" width="0.15" layer="16"/>
 <wire x1="61.087" y1="59.563" x2="64.3437" y2="59.563" width="0.15" layer="16"/>
@@ -3846,7 +3845,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <signal name="N$11">
 <contactref element="IC3" pad="5"/>
 <contactref element="C_DELAY" pad="1"/>
-<wire x1="50.815" y1="104.775" x2="50.815" y2="103.555" width="0.15" layer="1"/>
+<wire x1="50.815" y1="103.555" x2="50.815" y2="104.775" width="0.15" layer="1"/>
 <wire x1="50.815" y1="103.555" x2="49.81" y2="102.55" width="0.15" layer="1"/>
 <wire x1="49.81" y1="102.55" x2="49.66" y2="102.55" width="0.15" layer="1"/>
 </signal>
