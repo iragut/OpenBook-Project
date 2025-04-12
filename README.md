@@ -6,6 +6,7 @@ OpenBook este un e-reader open-source construit în jurul microcontrollerului ES
 ---
 
 ## Diagrama bloc
+![](https://github.com/iragut/OpenBook-Project/blob/main/Images/Untitled%20Diagram.jpg)
 
 
 ## Bill of Materials (BOM)
