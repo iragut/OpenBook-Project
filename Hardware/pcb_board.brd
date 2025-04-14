@@ -389,7 +389,7 @@
 <text x="7.095" y="3.1" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="7.095" y="3.1" size="1.27" layer="27" align="center">&gt;VALUE</text>
 </package>
-<package name="FH34SRJ24S05SH99" library_version="30">
+<package name="FH34SRJ24S05SH99" library_version="31">
 <description>&lt;b&gt;FH34SRJ-24S-0.5SH(99)-4&lt;/b&gt;&lt;br&gt;
 </description>
 <smd name="1" x="5.75" y="1.45" dx="0.8" dy="0.3" layer="1" rot="R90"/>
@@ -1383,7 +1383,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/PGB1010603MR/Littelfuse/view-part/?ref=snap" x="-41.275" y="-2.54" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="54.575" y="45.215" size="0.6096" layer="27" align="top-left"/>
 </element>
-<element name="D2" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.q_BEPzLFRl2sBZ4D8EmW4Q" package="ESP32_WROVER_AVX---SD0805S020S1R0_AVX_SD0805S020S1R0_0" value="ESP32_WROVER_AVX---SD0805S020S1R0_AVX_SD0805S020S1R0_0_0AVX_SD0805S020S1R0_0_0" x="135.89" y="46.355" smashed="yes" rot="R180">
+<element name="D2" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.q_BEPzLFRl2sBZ4D8EmW4Q" package="ESP32_WROVER_AVX---SD0805S020S1R0_AVX_SD0805S020S1R0_0" value="SD0805S020S1R0" x="135.89" y="46.355" smashed="yes" rot="R180">
 <attribute name="CENTROID_NOT_SPECIFIED" value="No" x="101.6" y="150.495" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DATASHEET" value="http://datasheets.avx.com/schottky.pdf" x="101.6" y="150.495" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGIKEY_DESCRIPTION" value="DIODE SCHOTTKY 20V 1A 0805" x="101.6" y="150.495" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1621,7 +1621,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="NAME" x="43.765" y="67.504" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="TRAN-14388" x="79.375" y="150.495" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R1" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.q_BEPzLFRl2sBZ4D8EmW4Q" package="ESP32_WROVER_EAGLE-LTSPICE_R0402" value="100k" x="65.405" y="38.735" smashed="yes" rot="R90">
+<element name="R1_PWRUSB" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.q_BEPzLFRl2sBZ4D8EmW4Q" package="ESP32_WROVER_EAGLE-LTSPICE_R0402" value="100k" x="65.405" y="38.735" smashed="yes" rot="R90">
 <attribute name="NAME" x="66.16" y="41.5" size="0.8128" layer="25" rot="R180"/>
 <attribute name="SPICEMODEL" value="NONE" x="150.495" y="62.865" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="150.495" y="62.865" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1816,17 +1816,17 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="TP_SIGNAL_NAME" value="" x="141.224" y="19.05" size="1" layer="37"/>
 <attribute name="VALUE" x="140.462" y="20.574" size="0.0254" layer="27"/>
 </element>
-<element name="TP4" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.q_BEPzLFRl2sBZ4D8EmW4Q" package="TP20R" value="TPTP20R" x="21.971" y="25.908" smashed="yes">
-<attribute name="NAME" x="20.971" y="26.958" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="2" x="108.331" y="-64.262" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="21.971" y="23.368" size="1" layer="37"/>
-<attribute name="VALUE" x="21.209" y="24.892" size="0.0254" layer="27"/>
+<element name="TP4" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.q_BEPzLFRl2sBZ4D8EmW4Q" package="TP20R" value="TPTP20R" x="80.691" y="89.138" smashed="yes">
+<attribute name="NAME" x="79.691" y="90.188" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="2" x="167.051" y="-1.032" size="1.778" layer="27" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="80.691" y="86.598" size="1" layer="37"/>
+<attribute name="VALUE" x="79.929" y="88.122" size="0.0254" layer="27"/>
 </element>
-<element name="TP5" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.q_BEPzLFRl2sBZ4D8EmW4Q" package="TP20R" value="TPTP20R" x="18.288" y="25.781" smashed="yes">
-<attribute name="NAME" x="17.288" y="26.831" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="2" x="109.728" y="-64.389" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="18.288" y="23.241" size="1" layer="37"/>
-<attribute name="VALUE" x="17.526" y="24.765" size="0.0254" layer="27"/>
+<element name="TP5" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.q_BEPzLFRl2sBZ4D8EmW4Q" package="TP20R" value="TPTP20R" x="80.418" y="96.101" smashed="yes">
+<attribute name="NAME" x="79.418" y="97.151" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="2" x="171.858" y="5.931" size="1.778" layer="27" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="80.418" y="93.561" size="1" layer="37"/>
+<attribute name="VALUE" x="79.656" y="95.085" size="0.0254" layer="27"/>
 </element>
 <element name="TP6" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.q_BEPzLFRl2sBZ4D8EmW4Q" package="TP20R" value="TPTP20R" x="6.35" y="102.87" smashed="yes">
 <attribute name="NAME" x="5.35" y="104.047" size="0.8128" layer="25"/>
@@ -1876,7 +1876,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/ESP32-C6-WROOM-1-N8/Espressif+Systems/view-part/?ref=snap" x="28.575" y="82.55" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="2.569" y="46.566" size="0.8128" layer="27" rot="R270"/>
 </element>
-<element name="U3" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.q_BEPzLFRl2sBZ4D8EmW4Q" package="ESP32_WROVER_BME680_PSON80P300X300X100-8N" value="BME680" x="154.305" y="19.05" smashed="yes" rot="R180">
+<element name="U3" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.q_BEPzLFRl2sBZ4D8EmW4Q" package="ESP32_WROVER_BME680_PSON80P300X300X100-8N" value="BME688" x="154.305" y="19.05" smashed="yes" rot="R180">
 <attribute name="AVAILABILITY" value="Unavailable" x="81.915" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value=" Integrated Environmental Unit " x="81.915" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="Bosch Sensortec" x="81.915" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1939,7 +1939,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <contactref element="C3" pad="-"/>
 <contactref element="C1_BAT1" pad="2"/>
 <contactref element="IC1" pad="2"/>
-<contactref element="R1" pad="1"/>
+<contactref element="R1_PWRUSB" pad="1"/>
 <contactref element="J2" pad="G1"/>
 <contactref element="J2" pad="G2"/>
 <contactref element="J2" pad="G3"/>
@@ -2279,7 +2279,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <contactref element="C5_USB" pad="1"/>
 <contactref element="Q1" pad="1"/>
 <contactref element="D2" pad="2"/>
-<contactref element="R1" pad="2"/>
+<contactref element="R1_PWRUSB" pad="2"/>
 <contactref element="U1" pad="4"/>
 <contactref element="LED1" pad="A"/>
 <contactref element="C1_BAT" pad="1"/>
